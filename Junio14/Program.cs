@@ -56,7 +56,7 @@ namespace Junio14
                     //Console.WriteLine(city.City1+" "+city.CityId);
                 }
             }
-            // agrupar.
+            // agrupar (no funciona, devuelve 1)
             using(var contexto=new SakilaContext()) {
                 List<AgrupacionPaisxCiudad> agrupar=contexto
                     .Countries // lista de paises
